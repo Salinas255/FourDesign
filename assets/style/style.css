@@ -1,0 +1,395 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+header {
+    background-image: linear-gradient(90deg, #572A8F, #EC0677);
+}
+
+.menu {
+    width: 1280px;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-logo, .div-buttons, .div-icons {
+    display: inline;
+    vertical-align: middle;
+}
+
+.div-logo img {
+    width:95px;
+    height: 105px;
+}
+
+.div-logo {
+    width: 200px;
+}
+
+.div-buttons {
+    width: 500px;
+    padding-left: 60px;
+}
+
+.div-icons img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+
+}
+
+.div-buttons button {
+    font-size: 18px;
+    font-weight: 500;
+    width: 140px;
+    padding: 8px 0;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.div-buttons button:hover {
+    transition: .5s;
+    border-bottom: 2px solid white;
+}
+
+
+#section-our-services {
+    height: 45vh;
+    width: 100%;
+    background-image: url(../images/Section1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 49%;
+    display: flex;
+    border-bottom: 3px solid #1CCCD1;
+}
+
+.empty-space {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-our-services {
+    width: 50%;
+}
+
+.our-services-content {
+    height: 100%;
+    width: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-services-content h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+}
+
+.our-services-content p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 28px;
+}
+
+.our-services-content button {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    width: 275px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.our-services-content button:hover {
+    transition: .5s;
+    background-color: #EC0677;
+    border: 2px solid #EC0677;
+    cursor: pointer;
+}
+
+h1, p, button {
+    color: white;
+}
+
+#section-portfolio {
+    width: 100%;
+}
+
+.div-portfolio {
+    width: 1280px;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.div-portfolio h2 {
+    color: #572A8F;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+}
+
+hr {
+    border: 1px solid #572A8F;
+    margin: 25px 0;
+}
+
+table {
+    width: 100%;
+}
+
+td:hover {
+    cursor: pointer;
+    transition: .5s;
+    filter: brightness(60%);
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9 {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.image1 {
+    background-image: url(../images/Section1.png);
+}
+
+.image2 {
+    background-image: url(../images/image.png);
+}
+
+.image3 {
+    background-image: url(../images/screencapture-salinas255-github-io-trilha-css-desafio-01-2022-11-28-22_07_44.png);
+}
+
+.image4 {
+    background-image: url(../images/stitch.jpeg);
+}
+
+.image5 {
+    background-image: url(../images/6d6ca22ed7e7fc4529040cbe65813003-e1539340985802.jpg);
+}
+
+.image6 {
+    background-image: url(../images/eefdbd12122453.5626d0908a648.jpg);
+}
+
+.image7 {
+    background-image: url(../images/copyright-Jessica-Giboin-via-Stylejuicer03.jpg);
+}
+
+.image8 {
+    background-image: url(../images/kisspng-drawing-painting-digital-art-digital-illustration-parrot-5a8618195a1157.9508329715187374333689.png);
+}
+
+.image9 {
+    background-image: url(../images/screencapture-muttleyfishing-br-2022-11-28-22_29_23.png);
+}
+
+#section-budget {
+    background-color: #201B65;
+}
+
+#section-budget {
+    width: 100%;
+    padding: 50px 0;
+}
+
+#section-budget h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2.7px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.align {
+    margin: auto;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-budget-contents {
+    width: 50%;
+}
+
+
+.paragraph-div {
+    text-align: end;
+    padding-right: 30px;
+}
+
+.paragraph-div p {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+
+.paragraph-div img {
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.paragraph-div button {
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.paragraph-div button:hover {
+    transition: .5s;
+    background-color: #EC0677;
+    border-color: #EC0677;
+    cursor: pointer;
+}
+
+.div-budget {
+    width: 50%;
+    border-left: 2px;
+    border-style: solid;
+    border-color: #FFFFFF94;
+}
+
+.div-budget-contents {
+    width: 100%;
+    padding-left: 30px;
+}
+
+form {
+    width: 100%;
+    color: white;
+    
+}
+
+form input {
+    width: 540px;
+    height: 34px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+span {
+    color: red;
+}
+
+select {
+    width: 550px;
+    height: 34px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+textarea {
+    font-size: 13px;
+    padding: 10px 0 5px 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.btn-send {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 550px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 0;
+    border-radius: 3px;
+}
+
+.btn-send:hover {
+    transition: .5s;
+    background-color: #EC0677;
+    border-color: #EC0677;
+    cursor: pointer;
+}
+
+#about-us {
+    background-color: white;
+}
+
+.about-us-content {
+    width: 1280px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.about-us-content h2 {
+    color: #572A8F;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-us-content p {
+    color: #545050;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+
+footer {
+    background-color: #572A8F;
+    height: 12vh;
+    display: flex;
+}
+
+.align-footer {
+    width: 1280px;
+    margin: auto;
+    display: flex;
+}
+
+.copyright {
+    width: 66%;
+}
+
+.copyright p {
+    text-align: end;
+    padding-top: 5px;
+}
+
+.footer-icons {
+    width: 33%;
+    display: inline;
+    vertical-align: middle;
+    text-align: end;
+}
+
+.footer-icons img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}

@@ -11,7 +11,7 @@ header {
 
 .menu {
     width: 1280px;
-    height: 15vh;
+    min-height: 15vh;
     margin: auto;
     display: flex;
     justify-content: space-between;
